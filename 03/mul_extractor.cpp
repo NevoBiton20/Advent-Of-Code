@@ -14,7 +14,7 @@ int main()
     {
         if(i<input.size()-7 && input.substr(i,7) == "don't()")
         {
-            is_do = false;
+            is_do = false; // for Part 2, turn this true.
         }
         else if(i<input.size()-4 && input.substr(i,4) == "do()")
         {
